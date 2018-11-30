@@ -1,0 +1,12 @@
+A có một số comment như sau e nhé.
+- Mỗi lần push nên em đặt tên branch có ý nghĩa: VD - Fix_layout_30/11 hoặc Upload_home_page ... Phần comment em liệt kê những phần em đã làm hoặc đã fix để tiện theo dõi.
+- Cấu trúc thư mục chưa chuẩn. File css em nên để trong một folder riêng - vì sau này sẽ còn nhiều file css của các màn khác. Nếu để ra ngoài thì sẽ rất khó quản lý.
+- Tương tự nếu có Font chữ riêng thì nên tạo mọt folder Fonts riêng.
+- Có folder images nhưng a vẫn thấy em để một số ảnh bên ngoài.
+- Trang chủ nên đặt là index.html.
+- Nên đặt thẻ meta viewport vào trong head.
+- Nếu dự án không dùng bootstap cần có file reset CSS (Phần này em tìm hiểu thêm).
+- Phần bố cục layout của em khá ok rồi. Phần tới em chú ý đến những phần nhỏ hơn ( vd: margin, padding, color, positton, hover, z-index )
+- Có một số phần không giống vs design a comment trong file FE-check.png nhé.
+- A chưa đọc kỹ code nhưng xìn qua thấy em lặp code css khá nhiều. Những phần nào chung thuộc tính em nhóm lại nhé. Dự án lớn nếu để lặp code nhiều sẽ tốn khá nhiều tài nguyên
+
