@@ -47,7 +47,7 @@ img{
 }
 
 .header-main{
-  background-image: url("image/photo101.png");
+  background-image: url("../images/bg-header.png");
   background-size: auto 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -177,7 +177,7 @@ img{
   width: 350px;
   height: 50px;
   background-color: transparent;
-  background: url("image/shop_men.png") no-repeat;
+  background: url("../images/shop_men.png") no-repeat;
   background-position: center;
   border: 2px solid black;
 }
