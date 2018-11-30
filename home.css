@@ -1,10 +1,5 @@
-#page{
-/*  position: relative;
-  margin-right: 0px;
-  margin-left: 0px;
-  margin: 0px;
-  background: transparent;*/
-  /*overflow: hidden;*/
+html, body{
+  height: 100%;
 }
 
 img{
@@ -12,11 +7,17 @@ img{
   height:auto;
 }
 
+.header {
+  background-color: white;
+  background-position: center;
+  position: relative;
+  height: 100%;
+}
+
 .header .topbar {
   background: #212121;
   color: #575153;
-  height: 50px;
-  /*align-items: center;*/
+  height: 40px;
 }
 
 #menu1{
@@ -27,7 +28,9 @@ img{
 
 .nav-tabs > li > a:hover {
   color: gray;
-  background: transparent !important;       
+  background: #00c8c8 !important;  
+  border-color: transparent !important;
+  border-radius: 0px;     
 }
 
 .nav-tabs > li > a {
@@ -44,42 +47,24 @@ img{
 }
 
 .header-main{
+  background-image: url("image/photo101.png");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
   position: relative;
+  height: 100%;
 }
 
 .header-bar {
+  display: inline;
   position: absolute;
   top: 18px;
   left: 16px;
   width: 100%;
 }
 
-.header-main .header-bar .container {
-  margin-right: 0px !important; 
-}
-
-.outside .shop-men{
-  position: absolute;
-  top: 600px;
-  left: 1000px;
-}
-
-.shop-men{
-  position: absolute;
-  top: 740px;
-  left: 1400px;
-}
-
-.main-footer{
-  height: 500px;
-  background-color: #f8f8f8;
-  margin-top: 30px;
-}
-
-.bottom-footer {
-  background: #212121;
-  color: #575153;
-  height: 45px;
+.main{
+  margin-top: 60px;
 }
 
 .section-1{
@@ -139,5 +124,202 @@ img{
 
 .logo-header{
   width: 100px;
+  display: flex;
+  align-items: center;
+  height: 40px; /*note*/
 }
 
+.in-topbar{
+  margin-left: 180px;
+  margin-right: 180px;
+  height: 40px;
+  display: flex;
+  align-items:  center;
+  height: 100%;
+  font-size: 90%;
+}
+
+.dropdown{
+  display: inline;
+  height: 40px !important;
+  text-align: left;
+}
+
+.nav-menu .nav-tabs > li > a:hover {
+  background-color: transparent !important;
+  color: #00c8c8 ;
+}
+
+.nav-menu {
+  margin-left: 20%;
+  font-size: 80%;
+  font-weight: bold;
+}
+
+.fa {
+  display: flex !important;
+  border-color: black;
+}
+
+.fa-search:before {
+  align-items: center;
+  display: flex;
+  margin-right: 30px;
+}
+
+.colection {
+  position: absolute;
+  top: 80%;
+  left: 70%;
+}
+
+.colection-button {
+  width: 350px;
+  height: 50px;
+  background-color: transparent;
+  background: url("image/shop_men.png") no-repeat;
+  background-position: center;
+  border: 2px solid black;
+}
+
+.colection-button:hover {
+  border: 2px solid gray;
+}
+
+.nav-menu-main .nav-tabs > li > a:hover {
+  background-color: transparent !important;
+  color: #00c8c8 ;
+}
+
+.nav-menu-main .nav-tabs > li > a {
+  font-size: 85%;
+  font-weight: bold;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.prices {
+  position: relative;
+}
+
+.price {
+  position: absolute;
+  font-style: oblique;
+  top: 5px;
+  left: 25px;
+}
+
+.lookbook{
+  position: relative;
+}
+
+.view-now {
+  position: absolute;
+  background-color: transparent;
+  width: 150px;
+  height: 50px;
+  top: 70%;
+  left: 55%;
+  border: 2px solid gray;
+}
+
+.view-now:hover {
+  background-color: #00c8c8;
+  border:none;
+  color: white;
+}
+
+.x-lookbook{
+  position: absolute;
+  top:5%;
+  left: 35%;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f8f8f8;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  margin-top: 50px;
+}
+
+.main-footer{
+  width: 60%;
+}
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.item{
+  display: inline-block;
+  width: 20%;
+  text-align: left;
+}
+
+.social {
+  margin-top: 30px;
+  display: inline-block;
+  position: relative;
+  width: 50%;
+  padding: 1%;
+}
+
+.award {
+  position: absolute;
+  align-items: center;
+  margin-top: 2%;
+}
+
+.bottom-footer {
+  align-items: flex-end;
+  background: #212121;
+  color: #575153;
+  width: 100%;
+  height: 40px;
+}
+
+img.fb {
+  max-width: 50%;
+  align-items: center;
+}
+
+.content-bottom{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.version {
+  display: flex;
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+  font-size: 80%
+}
+
+.version-1 {
+  display: flex;
+  width: 100%;
+}
+
+.a-fashion {
+  text-align: left;
+  width: 50%;
+}
+
+.design-by {
+  text-align: right;
+  width: 50%;
+}
