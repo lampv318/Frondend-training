@@ -8,5 +8,5 @@ A có một số comment như sau e nhé.
 - Nếu dự án không dùng bootstap cần có file reset CSS (Phần này em tìm hiểu thêm).
 - Phần bố cục layout của em khá ok rồi. Phần tới em chú ý đến những phần nhỏ hơn ( vd: margin, padding, color, positton, hover, z-index )
 - Có một số phần không giống vs design a comment trong file FE-check.png nhé.
-- A chưa đọc kỹ code nhưng xìn qua thấy em lặp code css khá nhiều. Những phần nào chung thuộc tính em nhóm lại nhé. Dự án lớn nếu để lặp code nhiều sẽ tốn khá nhiều tài nguyên
+- A chưa đọc kỹ code nhưng nhìn qua thấy em lặp code css khá nhiều. Những phần nào chung thuộc tính em nhóm lại nhé. Dự án lớn nếu để lặp code nhiều sẽ tốn khá nhiều tài nguyên
 
